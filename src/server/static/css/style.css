@@ -1,0 +1,136 @@
+#wrapper{
+    height:100%;
+    width:40vw;
+    max-width:600px;
+    max-height:900px;
+    border-radius:25px;
+    background-color:grey;
+    -webkit-box-shadow: 2px 4px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 12px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 4px 12px 1px rgba(0,0,0,0.75);
+    margin-top:2%;
+    margin-left:33.3vw;
+}
+
+.helper_wrapper{
+    height:100vh;
+    padding-bottom:30vh
+}
+
+#screen{
+    position:relative;
+    float:left;
+    width:70%;
+    height:80%;
+    margin-top:5vh;
+    margin-left:10%;
+    background-color: white;
+    background-image: url("http://127.0.0.1:8088/img/Home_screen_2.jpg");
+    background-size:100% 100%;
+    -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*containers*/
+.custom_container{
+    position:relative;
+
+}
+.custom_col{
+    height:100%;
+}
+
+#upper_menu{
+    height:8%;
+    margin-bottom:2%;
+}
+
+#usr_info{
+    position:relative;
+    height:50%;
+}
+
+#notifications{
+    position:relative;
+    height:50%;
+}
+
+#upper_left{
+    height:100%;
+    cursor:pointer;
+}
+
+#upper_right{
+    height:100%;
+    cursor:pointer;
+}
+
+/*lower menu*/
+#menu_bar{
+    height:8%;
+}
+
+#menu_bar:hover{
+    cursor:pointer;
+}
+
+.menu_item{
+    height:100%;
+    margin-left:3%;
+}
+/*ecg row1*/
+#ecg_container1{
+    position:relative;
+    margin-bottom:2%;
+    height:55%;
+}
+.ecg_div{
+    height:25%;
+}
+/*ecg row2*/
+#ecg_container2{
+    position:relative;
+    height:26.5%;
+}
+.ecg_div2{
+    height:50%;
+}
+/*buttons*/
+#hw_buttons{
+    position:relative;
+    height:80%;
+    width:10%;
+    float:left;
+    padding-left:20px;
+}
+#big_button{
+    margin-top:20vh;
+    position:relative;
+    background-color: lightgrey;
+    -webkit-box-shadow: 2px 4px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 12px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 4px 12px 1px rgba(0,0,0,0.75);
+    cursor:pointer;
+    height:5vh;
+    width:5vw;
+}
+#big_button:hover{
+    height:95px;
+    width:95px;
+}
+
+.circle{
+    border-radius:50%;
+}
+/*media queries*/
+@media only screen and (min-device-width:  360px) and (max-device-width:1036px){
+    .helper_wrapper{
+        padding-bottom:40vh;
+    }
+    #wrapper{
+        margin-left:10vh!important;
+        width:40vh;
+    }
+
+}
